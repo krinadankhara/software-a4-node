@@ -37,7 +37,7 @@ mongoose.connect(connectionString);
 const app = express();
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'https://fanciful-treacle-4b104d.netlify.app'
 }));
 
 let sess = {
